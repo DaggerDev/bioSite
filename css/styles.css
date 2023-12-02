@@ -102,11 +102,11 @@ p {
   line-height: 1.8em;
 }
 
-ul {
+main ul {
   color: #f6eee4;
   line-height: 1.8em;
   list-style-type:circle;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 .grid {
