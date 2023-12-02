@@ -3,3 +3,199 @@
     File Name: styles.css
     Date: 11-29-2023 
 */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&family=Fira+Sans:wght@200;400;500;700&family=Lora&family=Open+Sans:wght@700&display=swap');
+
+/* CSS Reset */
+
+body, header, nav, main, footer, img, h1, h3, ul {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1b1b1b;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  color: #f6eee4;
+}
+
+/* Style Rules for Mobile Viewport */
+
+/* Style rules for header area */
+
+header {
+  padding: 0% 0% 1% 0%;
+}
+
+h1, h3 {
+  padding: 0.5% 0% 0% 1%;
+  color: #f6eee4;
+}
+
+/* Style rules for navigation area */
+
+nav {
+  background-color: #4e4e4e;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  display: block;
+  border: 0.5px solid;
+  border-top-color: #1b1b1b;
+  font-size: 1.5em;
+  font-family: Geneva, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #f6eee4;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+}
+/* Style rules for main content */
+
+.hero {
+  padding-bottom: 2%;
+}
+
+.desktopHeroImage {
+  display: none;
+}
+
+.mobileHeroImage {
+  display: block;
+}
+
+main {
+  padding: 2%;
+}
+
+p {
+  color: #f6eee4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+}
+
+#imageShowcase #shortBio #goals {
+}
+
+/* Style rules for footer content */
+
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #1b1b1b;
+  color: #f6eee4;
+  padding: 1% 0%;
+}
+
+/*  Media Query for Tablet Viewport  */
+@media all and (min-width: 620px) {
+
+  .desktopHeroImage {
+    display: block;
+  }
+
+  .mobileHeroImage {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+
+    /* Tablet Viewport: Style rules for nav area */
+    nav {
+      border: 0.2px solid;
+      border-color: #f6eee4;
+    }
+
+    nav li {
+      border: 0px;
+      display: inline-block;
+      font-size: 1.25em;
+      font-family: Geneva, Arial, sans-serif;
+      font-weight: bold;
+    }
+  
+    nav li a {
+      padding: 0.5em;
+    }
+
+}
+
+/* Media Query for Print */
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+
+/* Media Query for Large Desktop Viewports */
+@media all and (min-width: 1921px)
+{
+  body { 
+    background: linear-gradient(#f6eee4, #1d1c1c);
+  }
+
+  .wrapper {
+    width: 1920px;
+    margin: 0 auto;
+  }
+
+  main {
+    background-color: #1b1b1b;
+    color: #f6eee4;
+  }
+}
+
+/* Media Query for Desktop Viewports */
+@media all and (min-width: 1000px)
+{
+    /* Desktop Viewport: Style rules for nav area */
+
+    .desktopHeroImage {
+      display: block;
+    }
+  
+    .mobileHeroImage {
+      display: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 10px;
+    }
+  
+    nav li a { 
+      padding: 0.5em 1.5em;
+    }
+  
+    nav li a:hover {
+      color: #1d1c1c;
+      background-color: #f6eee4;
+    }
+  
+}
