@@ -112,6 +112,7 @@ p {
   padding: 0%;
 }
 
+/* One of the two elements not taught in the class */
 /* Utilized ::first-letter selector as well as > sign for selecting only elements inside a specific element. */
 div > p::first-letter {
   font-size:x-large;
