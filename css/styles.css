@@ -153,6 +153,7 @@ main ul {
 #galleryIntro figcaption {
   padding: 2% 4%;
   line-height: 1.8em;
+  font-size: .9em;
 }
 
 figure img {
