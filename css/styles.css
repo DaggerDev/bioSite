@@ -109,6 +109,7 @@ main {
 p {
   color: #f6eee4;
   line-height: 1.8em;
+  padding: 0%;
 }
 
 /* Utilized ::first-letter selector as well as > sign for selecting only elements inside a specific element. */
@@ -147,12 +148,6 @@ main ul {
 
 #galleryIntro {
   padding: 0% 1%;
-}
-
-#galleryIntro figcaption {
-  padding: 2% 4%;
-  line-height: 1em;
-  font-size: .9em;
 }
 
 #galleryTitle {
